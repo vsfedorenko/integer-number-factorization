@@ -1,7 +1,7 @@
 Integer Number Factorization
 ============================
 
-
+In mathematics, factorization (also factorisation in British English) or factoring is the decomposition of an object (for example, a number, a polynomial, or a matrix) into a product of other objects, or factors, which when multiplied together give the original. For example, the number 15 factors into primes as 3 × 5, and the polynomial x^2 − 4 factors as (x − 2)(x + 2). In all cases, a product of simpler objects is obtained. (c) Wikipedia
 
 Usage example:
 --------------
