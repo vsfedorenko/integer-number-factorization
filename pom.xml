@@ -7,7 +7,7 @@
     <groupId>com.meiblorn</groupId>
     <artifactId>factorization</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-RELEASE</version>
+    <version>1.1-RELEASE</version>
 
     <modules>
         <module>factorization-api</module>

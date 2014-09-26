@@ -12,7 +12,7 @@
 
     <groupId>com.meiblorn</groupId>
     <artifactId>factorization-api</artifactId>
-    <version>1.0-RELEASE</version>
+    <version>1.1-RELEASE</version>
     <packaging>jar</packaging>
 
     <dependencies>

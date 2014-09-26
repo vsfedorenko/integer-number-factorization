@@ -1,6 +1,7 @@
-package com.meiblorn.math.factorization;
+package com.meiblorn.math.factorization.impl;
 
-import com.meiblorn.math.MathUtils;
+import com.meiblorn.math.factorization.FactorizationMethod;
+import com.meiblorn.math.utils.MathUtils;
 import com.meiblorn.math.domain.NumberMultiplierHolder;
 
 import java.util.ArrayList;

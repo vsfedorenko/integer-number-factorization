@@ -1,6 +1,7 @@
-package com.meiblorn.math.factorization;
+package com.meiblorn.math.factorization.impl;
 
 import com.meiblorn.math.domain.NumberMultiplierHolder;
+import com.meiblorn.math.factorization.FactorizationMethod;
 
 /**
  * @author Meiblorn on 11/09/14.

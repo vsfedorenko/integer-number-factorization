@@ -1,4 +1,4 @@
-package com.meiblorn.math;
+package com.meiblorn.math.utils;
 
 import java.util.ArrayList;
 import java.util.List;

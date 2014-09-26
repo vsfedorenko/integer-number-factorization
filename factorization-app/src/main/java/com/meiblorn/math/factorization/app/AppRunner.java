@@ -3,12 +3,12 @@ package com.meiblorn.math.factorization.app;
 import com.bethecoder.ascii_table.ASCIITable;
 import com.bethecoder.ascii_table.ASCIITableHeader;
 import com.meiblorn.math.factorization.ComplexFactorizationMethod;
+import com.meiblorn.math.factorization.impl.ComplexFactorizationMethodImpl;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author Meiblorn on 12/09/14.
@@ -38,9 +38,9 @@ public class AppRunner {
             String[][] data = new String[numbers.size()][];
 
             for (Integer number : numbers) {
-                data[i] = new String[3];
+                data[i] = new String[2];
 
-                ComplexFactorizationMethod complexFactorizationMethod = new ComplexFactorizationMethod();
+                ComplexFactorizationMethod complexFactorizationMethod = new ComplexFactorizationMethodImpl();
 
                 Map<Integer, Integer> multipliers = complexFactorizationMethod.getMultipliersFor(number);
 
@@ -51,16 +51,18 @@ public class AppRunner {
 
                 for (Integer multiplier : new TreeSet<Integer>(multipliers.keySet())) {
                     if (multiplier == 1 && number != 1) {
+                        j++;
                         continue;
                     }
 
                     multipliersStringBuilder.append(multiplier);
+
                     if (multipliers.get(multiplier) != 1) {
                         multipliersStringBuilder.append("^");
                         multipliersStringBuilder.append(multipliers.get(multiplier));
                     }
 
-                    if (++j < multipliers.size()) {
+                    if (j++ < multipliers.size() - 1) {
                         multipliersStringBuilder.append(" * ");
                     }
                 }
