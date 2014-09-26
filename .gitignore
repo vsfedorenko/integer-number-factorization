@@ -13,17 +13,12 @@ target
 *~
 *.log
 log
+out/
+input.txt
+output.txt
 .idea/
 */.idea
 */target/
-*.iml
-*.ec
-*.ipr
-*.iws
-*.ids
-*.swp
-*~
-*.log
 *.log.*
 *.sqlite
 git.properties
@@ -53,8 +48,6 @@ logs
 test/.coverage
 test/coverage.xml
 test/nosetests.xml
-
-log
 
 # Ruby stuff #
 ################
