@@ -5,6 +5,27 @@ Integer Number Factorization
 
 Usage example:
 --------------
+
+### Directory structure ###
+    project-directory
+    └─── README.md
+    └─── .........
+    │
+    └───factorization-app
+    │   └─── .......
+    │   │
+    │   └───target
+    │       │    input.txt
+    │       │    output.txt
+    │       └─── factorization-app-1.0-RELEASE.jar
+    │   
+    └───factorization-api    
+        └─── ......
+        
+### Call example ###
+    
+    java -jar factorization-app/target/factorization-app-1.0-RELEASE.jar
+   
 ### The input.txt ###
         
     4343
